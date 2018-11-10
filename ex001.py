@@ -49,7 +49,8 @@ print('a soma é {},\n a multiplicação é {}, a divisaão é {:.3f}'.format(s,
 print('a divisão por inteira é {}, a exponenciação é {} '.format(di, ex), end='\n \n  Inicio da atualização do arq.txt\n')
 #bloco para abrir um arquivo e ler e atualizar um arquivo .txt
 pad = open("D:\DevOps\python.txt","+r",)
-pads = pad.read()
+pads = pad.read() #este método lê todo o arquivo já o método readlines faz a leitura linha por linha
+# e apresenta dentro de chave em formato de lista
 print(pads)
 pads = str(input('digite as atualizações do arquivo: \n \n'))
 pad.write(pads)
