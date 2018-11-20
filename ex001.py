@@ -66,7 +66,12 @@ print(tudo)
 
 
 
+<<<<<<< HEAD
 tirando isso aqui
+=======
+
+fadfadfadfadf e mais uma vez
+>>>>>>> commit modificaçao
 
 
 
