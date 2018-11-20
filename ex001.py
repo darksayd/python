@@ -66,8 +66,7 @@ print(tudo)
 
 
 
-
-fadfadfadfadf
+tirando isso aqui
 
 
 
