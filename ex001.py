@@ -60,3 +60,18 @@ with open("D:\DevOps\python.txt") as arquivo:
     tudo = arquivo.read()
 print(tudo)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ##modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste mergemodificação para teste merge
