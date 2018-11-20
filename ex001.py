@@ -60,22 +60,11 @@ with open("D:\DevOps\python.txt") as arquivo:
     tudo = arquivo.read()
 print(tudo)
 
+#atualização realizada via git hub
 
 
 
 
 
 
-<<<<<<< HEAD
-tirando isso aqui
-=======
-
-fadfadfadfadf e mais uma vez
->>>>>>> commit modificaçao
-
-
-
-
-
-
-        ##modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste merge#modificação para teste mergemodificação para teste merge
+       
