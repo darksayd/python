@@ -60,8 +60,16 @@ with open("D:\DevOps\python.txt") as arquivo:
     tudo = arquivo.read()
 print(tudo)
 
+<<<<<<< HEAD
 #atualização realizada via git hub
+=======
+#este arquivo esta sendo processado
+#arquivo sera processado em breve
+#arquivo ja processado
+>>>>>>> commit testando diff
 
+
+#atualizado localmente 
 
 
 
