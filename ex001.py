@@ -55,7 +55,7 @@ print(pads)
 pads = str(input('digite as atualizações do arquivo: \n \n'))
 pad.write(pads)
 pad.close()
-#utilizando um gerenciador de exceptions: Utf-8
+
 with open("D:\DevOps\python.txt") as arquivo:
     tudo = arquivo.read()
 print(tudo)
