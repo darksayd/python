@@ -8,7 +8,7 @@ def hello(meu_nome):
 def gravar(salva):
     pad = open("D:\DevOps\python.txt", "+r", )
     pads = pad.read()  # este método lê todo o arquivo já o método readlines faz a leitura linha por linha
-    # e apresenta dentro de chave em formato de lista
+    
     print(pads)
     pads = str(input('digite as atualizações do arquivo: \n \n'))
     pad.write(pads)
