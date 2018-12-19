@@ -1,49 +1,49 @@
 #!/usr/bin/python
 #coding: utf-8
-print "O cabeÁalho em script È: #!/usr/bin/env python ou #!/usr/bin/python"
-print "Para n„o aparecer o erro (SyntaxError: Non-ASCII character), use essa linha logo abaixo do cabeÁalho: #coding: utf-8"
-print "Os coment·rios comeÁam com: #"
-print "Para imprimir na tela, ex.: print Ol·, mundo!"
-print "N„o precisa do ';' no final, mas coloquei aqui e n„o apresentou erro;";
-print "Pode ter coment·rios no meio da linha como aqui e n„o aparece" # coment·rio
-variavel = "Minha Vari·vel"
+print "O cabe√ßalho em script √©: #!/usr/bin/env python ou #!/usr/bin/python"
+print "Para n√£o aparecer o erro (SyntaxError: Non-ASCII character), use essa linha logo abaixo do cabe√ßalho: #coding: utf-8"
+print "Os coment√°rios come√ßam com: #"
+print "Para imprimir na tela, ex.: print Ol√°, mundo!" a a 
+print "N√£o precisa do ';' no final, mas coloquei aqui e n√£o apresentou erro;";
+print "Pode ter coment√°rios no meio da linha como aqui e n√£o aparece" # coment√°rio
+variavel = "Minha Vari√°vel"
 print variavel
-print "Cria-se vari·veis assim: variavel = 'Minha Vari·vel' , pode usar aspas simples ou duplas"
+print "Cria-se vari√°veis assim: variavel = 'Minha Vari√°vel' , pode usar aspas simples ou duplas"
 soma = 8+8;
-print "OperaÁıes aritimÈticas (soma+, subtraÁ„o-, multiplicaÁ„o*, divis„o/): print 8+8 = ",soma
+print "Opera√ß√µes aritim√©ticas (soma+, subtra√ß√£o-, multiplica√ß√£o*, divis√£o/): print 8+8 = ",soma
 print "Para concatenar strings basta usar o +, ex.: print 'Pala'+'vra'"
 print 'Pala'+'vra'
-print "Mas pra contatenar strings e integer, usa-se vÌrgula(,) (soma È uma vari·vel/integer 8+8), ex.: print '8+8' , soma"
-print "Pode-se usar a vÌrgula para separar tambÈm strings, no entanto, ficar· com espaÁo, ex.: 'Pala','vra' --> Pala vra"
-"coment·rio aspas duplas"
-'coment·rio aspas simples'
-print "Coment·rios tambÈm podem ser entre aspas simples ou duplas, como h· nesse script, mas n„o pode mistur·-los num mesmo coment·rio"
+print "Mas pra contatenar strings e integer, usa-se v√≠rgula(,) (soma √© uma vari√°vel/integer 8+8), ex.: print '8+8' , soma"
+print "Pode-se usar a v√≠rgula para separar tamb√©m strings, no entanto, ficar√° com espa√ßo, ex.: 'Pala','vra' --> Pala vra"
+"coment√°rio aspas duplas"
+'coment√°rio aspas simples'
+print "Coment√°rios tamb√©m podem ser entre aspas simples ou duplas, como h√° nesse script, mas n√£o pode mistur√°-los num mesmo coment√°rio"
 print 7/2
 print 7.0/2
-print 'Na divis„o quando quiser obter n˙meros irracionais(float) , tem de fazer tambÈm com float, como exemplo acima'
-print 'VocÍ pode criar expressıes aritimÈticas , veja o resultado abaixo da express„o: print ( 9 - ( 1 + 2 ) ) / 3.0'
+print 'Na divis√£o quando quiser obter n√∫meros irracionais(float) , tem de fazer tamb√©m com float, como exemplo acima'
+print 'Voc√™ pode criar express√µes aritim√©ticas , veja o resultado abaixo da express√£o: print ( 9 - ( 1 + 2 ) ) / 3.0'
 print ( 9 - ( 1 + 2 ) ) / 3.0
-print 'As mensagens de erro s„o descritivas e no caso de sintaxe, o python usa um  ^ pra indicar o locar exato do erro'
-print 'existem v·rios tipos de erros como em outras linguagens de programaÁ„o, consulte a documentaÁ„o:\nhttp://turing.com.br/pydoc/2.7/tutorial/errors.html'
+print 'As mensagens de erro s√£o descritivas e no caso de sintaxe, o python usa um  ^ pra indicar o locar exato do erro'
+print 'existem v√°rios tipos de erros como em outras linguagens de programa√ß√£o, consulte a documenta√ß√£o:\nhttp://turing.com.br/pydoc/2.7/tutorial/errors.html'
 print 'Como vc viu acima, o \\n pula linha'
 meuarray = ['marcos', 'eric', 'camila']
 print meuarray[1]
 print "Criando um meuarray: meuarray = ['marcos', 'eric', 'camila']"
 print 'imprimindo determinado elemento de um meuarray: print meuarray[1] --> eric'
-print 'CondiÁıes if e else usa-se condiÁ„o entre parÍnteses e dois pontos(:) no final, ex.:'
-print 'Diferente do Bash, n„o tem o fi pra fechar condiÁ„o, ex.:\n\nif (condiÁ„o):\n	print \nelse:\n	print '
+print 'Condi√ß√µes if e else usa-se condi√ß√£o entre par√™nteses e dois pontos(:) no final, ex.:'
+print 'Diferente do Bash, n√£o tem o fi pra fechar condi√ß√£o, ex.:\n\nif (condi√ß√£o):\n	print \nelse:\n	print '
 print
 print 'print sozinho pula uma linha como no Bash'
 total = 27
 if (total > 30):
-	print 'vari·vel total È maior que 30'
+	print 'vari√°vel total √© maior que 30'
 else:
-	print 'vari·vel total È menor que 30'
+	print 'vari√°vel total √© menor que 30'
 
 print
 inicial = 18
 
-print "Usando o if, elif e else, e mais o operador lÛgico and. podia ser tambÈm: or ou not, veja nesse script"
+print "Usando o if, elif e else, e mais o operador l√≥gico and. podia ser tamb√©m: or ou not, veja nesse script"
 if ( total < 30 ) and ( inicial < 15 ):
 	print 'Menor que 30 e menor que 15'
 elif ( total < 30 ) and ( inicial < 16 ):
@@ -53,15 +53,15 @@ elif ( total < 30 ) and ( inicial < 17 ):
 elif ( total < 30 ) and ( inicial == 18 ):
 	print 'Menor que 30 e igual a 18'
 else:
-	print 'Sei l·'
+	print 'Sei l√°'
 
 print
-print "Veja documentaÁ„o:\nhttps://docs.python.org/2/tutorial/controlflow.html"
+print "Veja documenta√ß√£o:\nhttps://docs.python.org/2/tutorial/controlflow.html"
 print
 print 'Utilizando o loop while, veja nesse script'
 count = 0
 while (count < 4):
-   print 'O contador È:', count
+   print 'O contador √©:', count
    count = count + 1
 
 print "Tchau!"
@@ -69,10 +69,10 @@ print 'Utilizando o loop while com o else'
 print
 count = 1
 while count < 3:
-   print count, " È  menor que 3"
+   print count, " √©  menor que 3"
    count = count + 1
 else:
-   print count, " n„o È menor que 3"
+   print count, " n√£o √© menor que 3"
 
 print
 print 'Loop for , imprimir os elementos do array meuarray: for i in meuarray: print i'
@@ -80,22 +80,22 @@ for i in meuarray: print i
 print
 
 print "Se o loop for fosse: \n\nfor letter in 'Python':\n\n	print letter"
-print "Imprimiria: cada letra da palavra Python e tambÈm pode usar o else como no while"
-print 'Usa-se uma das palavras reservadas(def) e o nome da funÁ„o, e mais os dois pontos(:) no final'
+print "Imprimiria: cada letra da palavra Python e tamb√©m pode usar o else como no while"
+print 'Usa-se uma das palavras reservadas(def) e o nome da fun√ß√£o, e mais os dois pontos(:) no final'
 print
-print 'Usando e criando funÁıes'
+print 'Usando e criando fun√ß√µes'
 def minhafuncao( str ):
-	print 'Minha profiss„o È:', str
+	print 'Minha profiss√£o √©:', str
 	return;
 print
 minhafuncao('Desenvolvedor Python')
 print
-print 'Usando funÁıes prÈ-definida, exemplo da funÁ„o raw_input estilo o read do Bash'
+print 'Usando fun√ß√µes pr√©-definida, exemplo da fun√ß√£o raw_input estilo o read do Bash'
 
 str = raw_input('Insira seu nome: ');
-print 'seu nome È: ', str
+print 'seu nome √©: ', str
 print
-print 'A funÁ„o range: '
+print 'A fun√ß√£o range: '
 print range(4)
 print
-print 'Basicamente pra comeÁar isso j· È necess·rio, aguarde nas prÛximas postagens de exercÌcios e continuaÁıes, abraÁos!'
+print 'Basicamente pra come√ßar isso j√° √© necess√°rio, aguarde nas pr√≥ximas postagens de exerc√≠cios e continua√ß√µes, abra√ßos!'
